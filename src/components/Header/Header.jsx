@@ -12,6 +12,7 @@ const header = () => {
         <a href="">Science</a>
         <a href="">Saorts</a>
         <a href="">Technology</a>
+        <a href="">a</a>
       </div>
     </>
   );
