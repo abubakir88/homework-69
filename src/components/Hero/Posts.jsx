@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const Posts = () => {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
-    fetch("./data/data.json")
+    fetch("../data/data.json")
       .then((res) => res.json())
       .then((data) => setPosts(data));
   }, []);
